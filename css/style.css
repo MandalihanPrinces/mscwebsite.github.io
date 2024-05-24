@@ -1,0 +1,211 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  content: none;
+  scroll-behavior: smooth;
+}
+:root{
+    --color: linear-gradient(to bottom right, #86E59F, #55AB3F, #2A7F17);
+    --bg: #2A7F17;
+}
+
+
+/* start */
+.navigation-bar{
+    display: flex;
+    background: var(--bg);
+    width: 100%;
+    justify-content: space-between;
+    padding-block: .8rem;
+    padding-inline: 2rem;
+}
+.navigation-bar-logo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.logo{
+    width: 6rem;
+    height: 6rem;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+.search-input,
+.search-button{
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    padding: .4rem;
+    border-radius: 2rem;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.nav-links a:hover{
+    color: whitesmoke;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-block: 4rem;
+}
+.title{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.course-item img{
+    width: 16rem;
+    height: 16rem;
+}
+.course-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: whitesmoke;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    width: 24rem;
+}
+.course-item:hover{
+    transform: translateY(-.4rem);
+    transition: .3s;
+}
+.course-item span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+/* about us */
+.about-us-title{
+    font-size: 4rem;
+    font-weight: 600;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-block: 4rem;
+    justify-content: center;
+    padding-inline:4rem;
+    
+}
+
+.diosdado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: hsla(109, 69%, 29%, 20%);
+
+}
+.president-info img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.president-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    padding-bottom: 4rem;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-block: 4rem;
+}
+.content-container p{
+    font-size: 1.2rem;
+}
+.content-container div{
+    background-color: gainsboro;
+    border-left: .4rem solid var(--bg);
+    border-radius: .2rem;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.content-container h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.content-container section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#dialog{
+    max-width: none;
+    max-height: none;
+    justify-content: right;
+    align-self: baseline;
+    justify-self: right;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: .5rem;
+    margin-top: 6rem;
+}
+.diadiv{
+    margin-top: 2rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gate-div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.gate-div img{
+    width: 50%rem;
+    height: 30rem;
+}
+.gate-div p {
+    font-size: 2rem;
+    padding-top: 2rem;
+}

@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  content: none;
+  scroll-behavior: smooth;
+}
+:root {
+  --color: linear-gradient(to bottom right, #86e59f, #55ab3f, #2a7f17);
+  --bg: #2a7f17;
+}
+
+/* start */
+.navigation-bar {
+  display: flex;
+  background: var(--bg);
+  width: 100%;
+  justify-content: space-between;
+  padding-block: 0.8rem;
+  padding-inline: 2rem;
+}
+.navigation-bar-logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.logo {
+  width: 6rem;
+  height: 6rem;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.search-input,
+.search-button {
+  background-color: whitesmoke;
+  outline: none;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 2rem;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.nav-links a:hover {
+  color: whitesmoke;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-title{
+  font-size: 2rem;
+  font-weight: 600;
+}
+/* logo */
+.course-div{
+    display: flex;
+    align-items: center;
+}
+.course-logo{
+    margin: 2rem;
+    width: 8rem;
+    height: 8rem;
+}
+.course-title{
+    font-size: 2.8rem;
+}
+/* main */
+.main-container{
+    display: flex;
+}
+.program-offers{
+    padding-inline: 4rem;
+    width: 100%;
+    font-size: 2rem;
+}
+.vid-container,
+.vid{
+    height: 40rem;
+    margin-left: 16rem;
+}
+.vid-container{
+    padding-left: 4rem;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1.2rem;
+    border: 1px solid var(--bg);
+    border-radius: 2rem;
+}
+.feedback-container{
+    display: flex;
+    padding-inline: 2rem;
+    padding-bottom: 4rem;
+    justify-content: end;
+}
+.strong{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+/* .program-offers.withOutline{
+  background-color: hsla(136, 65%, 71%, 30%);
+  border-radius: 2rem;
+} */
